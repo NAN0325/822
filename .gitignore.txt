@@ -1,0 +1,30 @@
+# Unity 场景和预制体按文本处理，支持合并
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.asset text eol=lf
+
+# 二进制资源按二进制处理，不做文本转换
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.fbx binary
+*.obj binary
+*.max binary
+*.blend binary
+
+# C# 脚本统一换行符
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
